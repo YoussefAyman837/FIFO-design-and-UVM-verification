@@ -4,17 +4,6 @@
 This project demonstrates the design and functional verification of a **synchronous FIFO (First-In-First-Out)** buffer using **SystemVerilog** for RTL and **UVM (Universal Verification Methodology)** for verification. It showcases industry-standard digital design and verification practices in a clean, modular setup.
 
 ---
-
-## 🧩 Project Structure
-
-├── rtl/ # FIFO RTL implementation (SystemVerilog) ├── tb/ # UVM testbench components │ ├── env/ # UVM environment, agent, monitor, scoreboard │ ├── seq/ # Sequences and sequence items │ └── test/ # Test cases ├── sim/ # Compile/run scripts and simulation setup ├── docs/ # Reports, waveform snapshots, diagrams └── README.md
-
-markdown
-Copy
-Edit
-
----
-
 ## 🛠️ FIFO Design Details
 
 - **Type:** Synchronous FIFO
